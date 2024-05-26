@@ -1,6 +1,6 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href="{{ site.baseurl }}/">
             <img src="{{ site.baseurl }}/assets/images/small-logo-svg.svg"/>
         </a>          
     </div>
@@ -8,7 +8,7 @@
         <div class="navbar-start">
             {% for item in site.data.navigation %}
                 {% if item.name != "Home" %}
-                    <a class="navbar-item" href="{{ item.link }}">
+                    <a class="navbar-item" href="{{ site.baseurl }}{{ item.link }}">
                         {{ item.name}}
                     </a>        
                 {% endif %}
