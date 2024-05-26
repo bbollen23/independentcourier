@@ -3,14 +3,7 @@ html{
 }
 body{
     height:100vh;
-    font-size:20pt;
-    h1 {
-        font-size:3.0em;
-        font-weight:bold;
-    }
-    h2 {
-        font-size:2.0em;
-    }
+    font-size:15pt;
 }
 
 .courier-font{
@@ -41,4 +34,8 @@ body{
     img{
         height:80px;
     }
+}
+
+.navbar-burger span{
+    background-color:#1f2743;
 }
