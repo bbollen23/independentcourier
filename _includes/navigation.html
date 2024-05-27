@@ -24,7 +24,7 @@ $navbarBurgers.forEach( el => {
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/assets/images/small-logo-svg.svg"/>
+            <img src="{{ site.baseurl }}/assets/images/small-logo-svg-dark.svg"/>
         </a>          
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
             <span aria-hidden="true"></span>
@@ -43,6 +43,11 @@ $navbarBurgers.forEach( el => {
                     </a>        
                 {% endif %}
             {% endfor %}
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href=tel:+13157331577>
+               (315)-733-1577
+            </a>
         </div>
     </div>
 </nav>

@@ -8,15 +8,15 @@ The best way to contact us is to give us a call at [(315)-733-1577](tel:+1315733
 
 ## Hours of Operation
 
-Monday: 9:00AM - 5:00PM
+Monday: 8:30AM - 4:30PM
 
-Tuesday: 9:00AM - 5:00PM
+Tuesday: 8:30AM - 4:30PM
 
-Wednesday: 9:00AM - 5:00PM
+Wednesday: 8:30AM - 4:30PM
 
-Thursday: 9:00AM - 5:00PM
+Thursday: 8:30AM - 4:30PM
 
-Friday: 9:00AM - 5:00PM
+Friday: 8:30AM - 4:30PM
 
 ## Location
 

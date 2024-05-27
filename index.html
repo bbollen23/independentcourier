@@ -4,45 +4,124 @@ title: Home
 ---
 
 <section class="section">
-    <div class="container">
-        <div class="columns">
-            <div class="column auto">
-                <img class="banner-logo" src="{{ site.baseurl }}/assets/images/small-logo-svg.svg" style="padding-top:20px;"/>
-                <h1 class="title" style="font-size:2.5em; margin-top:50px;">
-                    Delivering <span class="courier-color">Packages</span> and Fulfilling <span class="courier-color">Promises</span> since 1984.
-                </h1>
-                <!-- <p style="margin-top:20px; font-size:0.9em;"class="subtitle">
+  <div class="container">
+    <div class="columns">
+      <div class="column auto">
+        <img
+          class="banner-logo"
+          src="{{ site.baseurl }}/assets/images/small-logo-svg.svg"
+          style="padding-top: 20px"
+        />
+        <h1 class="title is-size-1" style="margin-top: 50px">
+          Delivering <span class="courier-color">Packages</span> and Fulfilling
+          <span class="courier-color">Promises</span> since 1984.
+        </h1>
+        <!-- <p style="margin-top:20px; font-size:0.9em;"class="subtitle">
                     Same day delivery service operating out of the Utica, NY area.
                 </p> -->
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 </section>
-<section class="section" style="margin-top:40px;">
-    <div class="container">
-        <h1 class="title">Who We Are</h1>
-        <p style="font-size:1.2em;">Independent Courier is a family-owned, same-day delivery service based out of Utica, NY. We specialize in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-        <div class="buttons mt-5" >
-            <button class="button is-primary" onclick="location.href='{{ site.baseurl }}/contact'" type="button">Contact Us</button>
-        </div>
+<section class="section" style="margin-top: 40px">
+  <div class="container">
+    <h1 class="title mb-5">Who We Are</h1>
+    <p style="font-size: 1.2em">
+      Independent Courier is a family-owned, same-day delivery service based out
+      of Utica, NY. We have blah blah blah blah blah blah blah blah blah blah
+      blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+      blah blah blah blah blah
+    </p>
+    <!-- <p>
+            - go anywhere in U.S. as long as you pay the mileage
+            - 
+        </p> -->
+    <div class="buttons mt-5">
+      <button
+        class="button is-primary"
+        onclick="location.href='{{ site.baseurl }}/contact'"
+        type="button"
+      >
+        Contact Us
+      </button>
     </div>
+  </div>
 </section>
-<section class="section" style="margin-top:40px;">
-        <div class="columns offerings"  style="text-align:center;">
-            <div class="column">
-                <img class="banner-logo" src="{{ site.baseurl }}/assets/images/clock-eight-svgrepo-com.svg">
-                <h3>Route Optimization</h3>
-                <p>When we save money, you save money. We optimize every route as much as possible to make sure our customers get the best deal possible.</p>
-            </div>
-            <div class="column">
-                <img class="banner-logo" src="{{ site.baseurl }}/assets/images/money-check-dollar-svgrepo-com.svg" />
-                <h3 style="font-weight:bold;">Competitive Pricing</h3>
-                <p>When we save money, you save money. We optimize every route as much as possible to make sure our customers get the best deal possible.</p>
-            </div>
-            <div class="column">
-                <img class="banner-logo" src="{{ site.baseurl }}/assets/images/car-svgrepo-com.svg" >
-                <h3>Route Optimization</h3>
-                <p>When we save money, you save money. We optimize every route as much as possible to make sure our customers get the best deal possible.</p>
-            </div>
-        </div>
+<section class="section" style="margin-top: 40px">
+  <div class="columns is-centered">
+    <div class="column is-half has-text-centered">
+      <h1 class="title mb-5">What We Offer</h1>
+    </div>
+  </div>
+  <div class="columns offerings mt-5">
+    <div class="column">
+      <img src="{{ site.baseurl }}/assets/images/clock-eight-svgrepo-com.svg" />
+      <h3>Route Optimization</h3>
+      <p>
+        When we save money, you save money. We optimize every route as much as
+        possible to make sure our customers get the best deal possible.
+      </p>
+    </div>
+    <div class="column">
+      <img
+        src="{{ site.baseurl }}/assets/images/money-check-dollar-svgrepo-com.svg"
+      />
+      <h3 style="font-weight: bold">Competitive Pricing</h3>
+      <p>
+        Regardless of your needs, we work with you to get the best pricing
+        possible.
+      </p>
+    </div>
+    <div class="column">
+      <img src="{{ site.baseurl }}/assets/images/car-svgrepo-com.svg" />
+      <h3>Dedicated Fleet</h3>
+      <p>
+        Our dedicated fleet consisting of economy hatchbacks, minivans, and 3/4
+        ton cargo van ensures that whatever the size of the package, we'll be
+        able to deliver it.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="margin-top: 40px">
+  <div class="columns is-centered">
+    <div class="column is-half has-text-centered">
+      <h1 class="title mb-5">Services</h1>
+    </div>
+  </div>
+  <div class="columns services mt-5">
+    <div class="column is-one-third">
+      <img class="theme-light" src="{{ site.baseurl }}/assets/images/service-icons-light/speedometer-svgrepo-com.svg" />
+      <img class="theme-dark" src="{{ site.baseurl }}/assets/images/service-icons-dark/speedometer-svgrepo-com.svg" />
+      <div class="service__text">Local Round Trip Deliveries</div>
+    </div>
+    <div class="column is-one-third">
+      <img class="theme-light" src="{{ site.baseurl }}/assets/images/service-icons-light/company-svgrepo-com.svg" />
+      <img class="theme-dark" src="{{ site.baseurl }}/assets/images/service-icons-dark/company-svgrepo-com.svg" />  
+      <div class="service__text">Business & Medical Accounts</div>
+    </div>
+    <div class="column is-one-third">
+      <img class="theme-light" src="{{ site.baseurl }}/assets/images/service-icons-light/sun-svgrepo-com.svg" />
+      <img class="theme-dark" src="{{ site.baseurl }}/assets/images/service-icons-dark/sun-svgrepo-com.svg" />  
+      <div class="service__text">Special Day Service</div>
+    </div>
+  </div>
+  <div class="columns services">
+    <div class="column is-one-third">
+      <img class="theme-light" src="{{ site.baseurl }}/assets/images/service-icons-light/shipping-car-svgrepo-com.svg" />
+      <img class="theme-dark" src="{{ site.baseurl }}/assets/images/service-icons-dark/shipping-car-svgrepo-com.svg" />   
+      <div class="service__text">Long Distance Service</div>
+    </div>
+    <div class="column is-one-third">
+      <img class="theme-light" src="{{ site.baseurl }}/assets/images/service-icons-light/night-svgrepo-com.svg" />
+      <img class="theme-dark" src="{{ site.baseurl }}/assets/images/service-icons-dark/night-svgrepo-com.svg" />     
+      <div class="service__text">Special Night Service</div>
+    </div>
+    <div class="column is-one-third">
+      <img class="theme-light" src="{{ site.baseurl }}/assets/images/service-icons-light/map-svgrepo-com.svg" />
+      <img class="theme-dark" src="{{ site.baseurl }}/assets/images/service-icons-dark/map-svgrepo-com.svg" />    
+      <div class="service__text">Same Day Syracuse/Albany Service</div>
+    </div>
+  </div>
 </section>

@@ -1,6 +1,23 @@
+$courier-color: #D30102;
+$courier-color-dark: #1f2743;
+$courier-color-dark-lighter:#2b3f5e;
+
 html{
     height:100vh;
 }
+html[data-theme='light']{
+    .theme-dark{
+        display:none;
+    }
+}
+
+html[data-theme='dark']{
+    .theme-light{
+        display:none;
+    }
+}
+
+
 body{
     height:100vh;
     font-size:15pt;
@@ -13,11 +30,11 @@ body{
 }
 
 .courier-color{
-    color:#D30102;
+    color:$courier-color;
 }
 
 .courier-color-dark{
-    color: #1f2743;
+    color: $courier-color-dark;
 }
 
 .banner-logo{
@@ -25,21 +42,49 @@ body{
 }
 
 .offerings{
+    text-align:center;
     h3{
         font-weight:bold;
-    }
-    p{
-        font-size:1.0em;
     }
     img{
         height:80px;
     }
 }
 
+.services{
+    text-align: center;
+    .service__text{
+        // font-size:0.8em;
+        @extend .is-size-7;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color:$courier-color;
+    }
+    img{
+        height:50px;
+    }
+
+}
+
 .navbar-burger span{
-    background-color:#1f2743;
+    background-color:white !important;
+}
+
+.navbar{
+    background-color: $courier-color-dark !important;
+    .navbar-item{
+        color:white !important;
+
+    }
+    .navbar-item:hover{
+        background-color:$courier-color-dark-lighter!important;
+    }
+    #navMenu{
+        background-color: $courier-color-dark !important;
+    }
 }
 
 footer{
     padding: 2rem 1rem 4rem !important;
 }
+
